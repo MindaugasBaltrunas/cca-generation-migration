@@ -23,12 +23,6 @@ Generate a new migration:
 npx cca-migration-generator CreateUserTable
 ```
 
-Generate a migration with specific options:
-
-```bash
-npx cca-migration-generator CreateUserTable --dir=src/infrastructure/database/migrations --template=default
-```
-
 ## Getting Started
 
 ### 1. Database Configuration
@@ -66,12 +60,13 @@ Recommended project structure:
 ```
 your-project/
 ├── src/
-│   ├── database/
-│   │   ├── migrations/
-│   │   │   └── [migration files]
-│   │   └── config.ts
-│   └── entities/
-│       └── [entity files]
+|   ├── infrastructure/
+|   │   ├── database/
+|   │   │   ├── migrations/
+|   │   │   │   └── [migration files]
+|   │   │   └── config.ts
+|   │   └── entities/
+|   │       └── [entity files]
 ├── cca.config.json
 └── .env
 ```
@@ -155,9 +150,9 @@ We welcome contributions! Please follow these steps:
 
 ## Support
 
-- Report issues: [GitHub Issues](https://github.com/your-repo/cca-migration-generator/issues)
-- Read docs: [Wiki](https://github.com/your-repo/cca-migration-generator/wiki)
-- Join discussions: [Community](https://github.com/your-repo/cca-migration-generator/discussions)
+- Report issues: [GitHub Issues](https://github.com/MindaugasBaltrunas/cca-migration-generator/issues)
+- Read docs: [Wiki](https://github.com/MindaugasBaltrunas/cca-migration-generator/wiki)
+- Join discussions: [Community](https://github.com/MindaugasBaltrunas/cca-migration-generator/discussions)
 
 ## License
 
