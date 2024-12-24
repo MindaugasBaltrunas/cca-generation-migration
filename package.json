@@ -1,0 +1,60 @@
+{
+  "name": "cca-migration-generator",
+  "version": "0.1.0",
+  "description": "PostgreSQL TypeORM migration generator and schema builder with advanced TypeScript support",
+  "type": "module",
+  "main": "dist/cli.js",
+  "types": "dist/cli.d.ts",
+  "bin": {
+    "cca-migration-generator": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "npm run build",
+    "start": "node dist/cli.js"
+  },
+  "keywords": [
+    "typeorm",
+    "migration",
+    "generator",
+    "typescript",
+    "postgresql",
+    "postgres",
+    "database",
+    "schema",
+    "orm",
+    "entity",
+    "migration-generator",
+    "database-migration",
+    "typescript-orm",
+    "typeorm-migration",
+    "sql"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "tsup": "^8.3.5"
+  },
+  "peerDependencies": {
+    "typeorm": ">=0.2.0",
+    "typescript": ">=4.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.0",
+    "@types/node": "^16.18.122",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^27.0.0",
+    "ts-jest": "^27.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
