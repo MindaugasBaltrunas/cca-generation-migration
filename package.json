@@ -1,6 +1,6 @@
 {
   "name": "cca-migration-generator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PostgreSQL TypeORM migration generator and schema builder with advanced TypeScript support",
   "type": "module",
   "main": "dist/cli.js",
